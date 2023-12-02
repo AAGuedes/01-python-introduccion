@@ -2,5 +2,12 @@
 Operador For
 """
 
+BUSCAR = 10
+
 for numero in range(5):
-    print(numero, numero * "Hello World!")
+    print(numero)
+    if numero == BUSCAR:
+        print("Encontrado", BUSCAR)
+        break
+else:
+    print("No encontrado")
