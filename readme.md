@@ -1,7 +1,5 @@
 # 1 - Introducción
 
-En esta sección se prepara el entorno de desarrollo y consta de las siguiente clases:
-
 **1.1 - Intalando Python**
 
 - [Descarga de Python](https://www.python.org/downloads/)
@@ -51,4 +49,36 @@ En esta sección se prepara el entorno de desarrollo y consta de las siguiente c
 **2.9 - Conversión de tipos**
 
 # 3 - Control de flujo
+
+**3.1 - Comparadores lógicos**
+
+**3.2 - if, else y elif**
+
+**3.3 - if, else y elif con dibujos**
+
+**3.4 - Operador ternario**
+
+**3.5 - Operadores lógicos**
+
+**3.6 - Operaciones de corto-circuito**
+
+**3.7 - Cadena de comparadores**
+
+**3.8 - For**
+
+**3.9 - For else**
+
+**3.10 - Iterables**
+
+**3.11 - While**
+
+**3.12 - Loops infinitos**
+
+**3.13 - Loops anidados**
+
+**3.14 - Ejercicio**
+
+**3.15 - Solución ejercicio**
+
+# 4 - Funciones
 
