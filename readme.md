@@ -82,3 +82,24 @@
 
 # 4 - Funciones
 
+**4.1 - Introducción a funciones**
+
+**4.2 - Parámetros y argumentos**
+
+**4.3 - Argumentos opcionales**
+
+**4.4 - Argumentos nombrados**
+
+**4.5 - xargs**
+
+**4.6 - kwargs**
+
+**4.7 - return**
+
+**4.8 - Alcance**
+
+**4.9 - Depurando funciones**
+
+**4.10 - Ejercicio**
+
+**4.11 - Solución del ejercicio**
