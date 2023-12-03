@@ -103,3 +103,41 @@
 **4.10 - Ejercicio**
 
 **4.11 - Solución del ejercicio**
+
+# 5 - Tipos avanzados
+
+**5.1 - Listas**
+
+**5.2 - Manipulando listas**
+
+**5.3 - Desempaquetar listas**
+
+**5.4 - Iterar listas**
+
+**5.5 - Buscando elementos**
+
+**5.6 - Agregando y eliminando**
+
+**5.7 - Ordenando listas**
+
+**5.8 - Expresiones lambda**
+
+**5.9 - Listas de comprension**
+
+**5.10 - Map y Filter**
+
+**5.11 - Tuplas**
+
+**5.12 - Sets**
+
+**5.13 - Diccionarios**
+
+**5.14 - Operador de dempaquetamiento**
+
+**5.15 - Filas**
+
+**5.16 - Pilas**
+
+**5.17 - Enunciado del ejercicio**
+
+**5.18 - Solución del ejercicio**
