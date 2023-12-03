@@ -10,7 +10,7 @@ def saludar():
     """
     Funcion saludar
     """
-    global saludo  # Permite acceder a una variable global, evitar usar
+#    global saludo  # Permite acceder a una variable global, evitar usar
     saludo = "Hola Mundo"
 
 
