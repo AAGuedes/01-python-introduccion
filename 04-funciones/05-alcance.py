@@ -2,14 +2,16 @@
 Alcance
 """
 
-saludo = "Hola global" # Las variables globales son una mala practica, evitar usarlas
+# Las variables globales son una mala practica, evitar usarlas
+saludo: str = "Hola global"
+
 
 def saludar():
-    global saludo # Permite acceder a una variable global, evitar usar
+    """
+    Funcion saludar
+    """
+    global saludo  # Permite acceder a una variable global, evitar usar
     saludo = "Hola Mundo"
-
-def saludaJohn():
-    saludo = "John Doe"
 
 
 print(saludo)
