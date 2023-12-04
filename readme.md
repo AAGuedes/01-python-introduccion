@@ -141,3 +141,43 @@
 **5.17 - Enunciado del ejercicio**
 
 **5.18 - Solución del ejercicio**
+
+# 6 - Clases
+
+**6.1 - Introducción a las clases**
+
+**6.2 - Creando clases**
+
+**6.3 - Constructor**
+
+**6.4 - Propiedades de clase**
+
+**6.5 - Métodos de clase**
+
+**6.6 - Propiedades y métodos privados**
+
+**6.7 - Decorador property**
+
+**6.8 - Métodos mágicos**
+
+**6.9 - Destructor**
+
+**6.10 - Comparando objetos**
+
+**6.11 - Contenedores**
+
+**6.12 - Herencia**
+
+**6.13 - Herencia múltiple**
+
+**6.14 - Anulación de método**
+
+**6.15 - Ejemplo real**
+
+**6.16 - Clases abstractas**
+
+**6.17 - Polimorfismo**
+
+**6.18 - Duck typing**
+
+**6.19 - Extendiendo tipos nativos**
