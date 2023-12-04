@@ -1,5 +1,5 @@
 """
-Filas
+Filas (FIFO)
 """
 from collections import deque
 
