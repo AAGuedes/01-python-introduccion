@@ -1,5 +1,6 @@
 """
-
+Ordenando listas
+Funciones lambda
 """
 
 numeros = [2, 5, 156, 3526, 75, 66]
@@ -42,4 +43,8 @@ usuarios.sort(key=ordena)
 print(usuarios)
 
 usuarios.sort(key=ordena, reverse=True)
+print(usuarios)
+
+# Función lambda, se le pasa como parámetro el elemento y a continuación se especifíca el retorno
+usuarios.sort(key=lambda usuarios: usuarios[1])
 print(usuarios)
