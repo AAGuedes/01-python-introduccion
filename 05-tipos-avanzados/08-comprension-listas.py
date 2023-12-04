@@ -1,5 +1,6 @@
 """
 Comprension listas
+Map y Filter
 """
 
 usuarios = [
@@ -22,5 +23,13 @@ usuarios = [
 # print(nombres)
 
 # Filtrar y transformar
-nombres = [usuario[0] for usuario in usuarios if usuario[1] > 2]
+# nombres = [usuario[0] for usuario in usuarios if usuario[1] > 2]
+# print(nombres)
+
+# Map
+# nombres = list(map(lambda usuario: usuario[0], usuarios))
+# print(nombres)
+
+#Filter
+nombres = list(filter(lambda usuario: usuario[1] > 2, usuarios))
 print(nombres)
