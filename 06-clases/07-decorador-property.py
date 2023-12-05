@@ -25,8 +25,6 @@ class Animal:
         """
         if name.strip():
             self.__name = name
-        return
-
 
 
 animal = Animal("Perro")
