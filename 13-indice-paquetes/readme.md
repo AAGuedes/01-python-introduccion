@@ -53,3 +53,11 @@
 **Desactivar ambiente virtual**
 
 - exit
+
+**Instalar paquetes desde pipfile**
+
+- pipenv install
+
+**Instalar paquetes desde pipfile.lock**
+
+- pipenv install --ignore-pipfile
