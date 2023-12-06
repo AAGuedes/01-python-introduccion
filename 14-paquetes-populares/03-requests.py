@@ -1,8 +1,15 @@
 import requests
 
+
+apikey = "12345"
+headers = {
+    "Authorization": f"Bearer {apikey}"
+}
+
+
 # GET
 url = "https://jsonplaceholder.typicode.com/users"
-r = requests.get(url, timeout=10)
+r = requests.get(url, timeout=10, headers=headers)
 r = r.json()
 for user in r:
     print(user["name"])
@@ -10,7 +17,7 @@ for user in r:
 
 # GET
 url = "https://jsonplaceholder.typicode.com/users/1"
-r = requests.get(url, timeout=10)
+r = requests.get(url, timeout=10, headers=headers)
 print(r.json())
 
 
@@ -20,7 +27,7 @@ user = {
     "id": 11,
     "name": "John Doe"
 }
-r = requests.post(url, timeout=10, data=user)
+r = requests.post(url, timeout=10, headers=headers, data=user)
 print(r.status_code)
 
 
@@ -30,5 +37,5 @@ user = {
     "id": 1,
     "name": "John Doe"
 }
-r = requests.put(url, timeout=10, data=user)
+r = requests.put(url, timeout=10, headers=headers, data=user)
 print(r.status_code)
