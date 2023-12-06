@@ -1,0 +1,35 @@
+# Teoria
+
+**Intalando paquetes**
+
+- pip install requests
+
+**Listar paquetes instalados**
+
+- pip list
+
+**Instalar versión especificada**
+
+- pip install requests==2.18.1
+
+- pip install requests==2.18.*
+
+- pip install requests==2.*
+
+**Instalar la versión más parecida**
+
+- pip install requests~=2.18.1
+
+**Crear ambiente virtual**
+
+- python -m venv env
+
+**Activar ambiente virtual**
+
+- env/Scripts/activate
+
+- Activando el ambiente virtual puede que lance un error de seguridad, para poder ejecutarlo usar el siguiente código `Set-ExecutionPolicy Unrestricted -Scope Process` y posteriormente ejecutar el activate
+
+**Desactivar ambiente virtual**
+
+- deactivate
