@@ -61,3 +61,11 @@
 **Instalar paquetes desde pipfile.lock**
 
 - pipenv install --ignore-pipfile
+
+**Actualizar paquetes desactualizados**
+
+- pipenv update --outdated
+
+**Actualizar todos los paquetes**
+
+- pipenv update
