@@ -1,6 +1,6 @@
-# Teoria
+# Gestionar paquetes
 
-**Intalando paquetes**
+**Intalar paquetes**
 
 - pip install requests
 
@@ -20,6 +20,8 @@
 
 - pip install requests~=2.18.1
 
+# Ambiente Virtual
+
 **Crear ambiente virtual**
 
 - python -m venv env
@@ -33,3 +35,21 @@
 **Desactivar ambiente virtual**
 
 - deactivate
+
+# pipenv
+
+**Instalar pipenv**
+
+- pip install pipenv
+
+**Instalar paquetes**
+
+- pipenv install requests
+
+**Activar ambiente virtual**
+
+- pipenv shell
+
+**Desactivar ambiente virtual**
+
+- exit
