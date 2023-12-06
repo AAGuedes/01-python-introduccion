@@ -1,4 +1,5 @@
 "Inyección de dependencias esta clase es teórica"
+"Import dínamico de paquetes"
 
 # import Correa
 
@@ -26,4 +27,31 @@
 
 # Algunos frameworks como Flask requieren metodos similares al siguiente:
 # def init_app(bbdd, api):
-    # Código...
+# Código...
+
+# =====
+# Import dinámico de paquetes
+from pathlib import Path
+# import db
+# import graphql
+# import api
+
+path = Path()
+paths = [p for p in path.iterdir() if p.is_dir()]
+
+dependencias = {
+    "db": "Base de datos",
+    "api": "Conexión API",
+    "graphql": "Graphql"
+}
+
+def load(p):
+    "Función load"
+    paquete = __import__(str(p).replace("/", "."))
+    try:
+        paquete.init(**dependencias)
+    except:
+        print("El paquete no tiene función __init__")
+
+
+list(map(load, paths))
