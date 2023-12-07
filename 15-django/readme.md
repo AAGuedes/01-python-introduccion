@@ -12,3 +12,12 @@
 
 - python manage.py startapp productos
 
+# Migraciones
+
+**Para crear las migraciones introducimos**
+
+- python manage.py makemigrations
+
+**Para migrar introducimos**
+
+- python manage.py migrate
