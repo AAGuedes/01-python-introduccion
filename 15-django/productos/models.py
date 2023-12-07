@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 
 class Categoria(models.Model):
@@ -18,3 +19,4 @@ class Producto(models.Model):
         Categoria,
         on_delete=models.CASCADE
     )
+    creado_en: models.DateTimeField(default=timezone.now)
