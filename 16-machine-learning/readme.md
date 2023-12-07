@@ -59,3 +59,6 @@
 2. Inicializar servidor jupyter, introduciendo en la consola:
 
         jupyter notebook
+
+3. Descargar un set de datos de Kaggle.com
+
