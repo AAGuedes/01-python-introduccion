@@ -21,3 +21,7 @@
 **Para migrar introducimos**
 
 - python manage.py migrate
+
+# Creación de usuario administrador
+
+- python manage.py createsuperuser
