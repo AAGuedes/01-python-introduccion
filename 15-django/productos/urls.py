@@ -10,6 +10,11 @@ urlpatterns = [
         name='productos'
     ),
     path(
+        'formulario',
+        views.formulario,
+        name='formulario'
+    ),
+    path(
         '<int:producto_id>',
         views.detalle,
         name='detalle'

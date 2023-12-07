@@ -1,5 +1,7 @@
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
+
+from .forms import ProductoForm
 from .models import Producto
 
 
@@ -48,4 +50,14 @@ def detalle(request, producto_id):
         request,
         'detalle.html',
         context={'producto': producto}
+    )
+
+
+def formulario(request):
+    form = ProductoForm()
+
+    return render(
+        request,
+        'producto_form.html',
+        {'form': form}
     )
