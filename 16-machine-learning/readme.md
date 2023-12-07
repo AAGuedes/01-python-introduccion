@@ -1,4 +1,4 @@
-# Pasos para un proyecto de Machine Learning
+# Pasos de un proyecto de Machine Learning
 
 1. Importar datos
 
@@ -27,3 +27,35 @@
 7. Evaluar y mejorar
 
     Puede que se de el caso que necesitemos reevaluar los datos disponibles, mecesitemos más datos para entrenar nuestro modelo o reevaluar como solucionar el problema que pretendemos solucionar con nustro modelo
+
+# Librerías populares
+
+1. Numpy
+
+    Permite trabajar con listas de múltiples dimensiones
+
+2. Pandas
+
+    Permite trabajar con dataframes
+
+3. Matplotlib
+
+    Permite generar gráficos en dos dimensiones para facilitar la visualización de los datos
+
+4. Scikit-Learn
+
+    Contiene diferentes algoritmos con los que trabajar
+
+5. Tensorflow
+
+    Herramienta especializada en redes neuronales y compatible con la aceleración de las tarjetas gráficas
+
+# Preparando el entorno
+
+1. Descargar Anaconda3
+
+    [Anaconda Free Version](https://www.anaconda.com/download)
+
+2. Inicializar servidor jupyter, introduciendo en la consola:
+
+        jupyter notebook
